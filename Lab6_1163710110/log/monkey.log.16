@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-06-23T16:17:55</date>
+  <millis>1529741875044</millis>
+  <sequence>16</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>27</thread>
+  <message>Sat Jun 23 16:17:55 CST 2018猴子1529742875039正在右岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:17:55</date>
+  <millis>1529741875057</millis>
+  <sequence>17</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>28</thread>
+  <message>Sat Jun 23 16:17:55 CST 2018猴子1529743875039正在左岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:17:57</date>
+  <millis>1529741877044</millis>
+  <sequence>18</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>30</thread>
+  <message>Sat Jun 23 16:17:57 CST 2018猴子1529742877039正在右岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:17:57</date>
+  <millis>1529741877047</millis>
+  <sequence>19</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>31</thread>
+  <message>Sat Jun 23 16:17:57 CST 2018猴子1529743877039正在右岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:17:57</date>
+  <millis>1529741877047</millis>
+  <sequence>20</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>29</thread>
+  <message>Sat Jun 23 16:17:57 CST 2018猴子1529741877039正在左岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:17:59</date>
+  <millis>1529741879042</millis>
+  <sequence>21</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>34</thread>
+  <message>Sat Jun 23 16:17:59 CST 2018猴子1529743879039正在左岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:17:59</date>
+  <millis>1529741879042</millis>
+  <sequence>22</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>32</thread>
+  <message>Sat Jun 23 16:17:59 CST 2018猴子1529741879039正在右岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:17:59</date>
+  <millis>1529741879062</millis>
+  <sequence>23</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>33</thread>
+  <message>Sat Jun 23 16:17:59 CST 2018猴子1529742879039正在右岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:18:01</date>
+  <millis>1529741881043</millis>
+  <sequence>24</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>37</thread>
+  <message>Sat Jun 23 16:18:01 CST 2018猴子1529743881039正在左岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:18:01</date>
+  <millis>1529741881047</millis>
+  <sequence>25</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>35</thread>
+  <message>Sat Jun 23 16:18:01 CST 2018猴子1529741881039正在右岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:18:01</date>
+  <millis>1529741881051</millis>
+  <sequence>26</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>36</thread>
+  <message>Sat Jun 23 16:18:01 CST 2018猴子1529742881039正在左岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:18:03</date>
+  <millis>1529741883041</millis>
+  <sequence>27</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>38</thread>
+  <message>Sat Jun 23 16:18:03 CST 2018猴子1529741883039正在左岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:18:03</date>
+  <millis>1529741883042</millis>
+  <sequence>28</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>39</thread>
+  <message>Sat Jun 23 16:18:03 CST 2018猴子1529742883039正在右岸等待,离出生已0.0秒</message>
+</record>
+<record>
+  <date>2018-06-23T16:18:03</date>
+  <millis>1529741883043</millis>
+  <sequence>29</sequence>
+  <logger>monkey</logger>
+  <level>INFO</level>
+  <class>v1.Monkey</class>
+  <method>run</method>
+  <thread>40</thread>
+  <message>Sat Jun 23 16:18:03 CST 2018猴子1529743883039正在右岸等待,离出生已0.0秒</message>
+</record>
+</log>

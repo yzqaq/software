@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Lab1_1163710110">
+    <property environment="env"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="JUnit 5.libraryclasspath">
+        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.api_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.engine_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.migrationsupport_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.jupiter.params_5.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.platform.commons_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.platform.engine_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.platform.launcher_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.platform.runner_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.platform.suite.api_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit.vintage.engine_4.12.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.opentest4j_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.apiguardian_1.0.0.v20170910-2246.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    </path>
+    <path id="Lab1_1163710110.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+        <pathelement location="lib/javax.json-1.0.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir=".">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="."/>
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="TurtleSoup">
+        <java classname="P2.turtle.TurtleSoup" failonerror="true" fork="yes">
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </java>
+    </target>
+    <target name="RulesOf6005Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="src.P2.rules.RulesOf6005Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </junit>
+    </target>
+    <target name="TurtleSoupTest (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="src.P2.turtle.TurtleSoupTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </junit>
+    </target>
+    <target name="FriendshipGraphTest (4)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.P3.FriendshipGraphTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </junit>
+    </target>
+    <target name="MagicSquare (1)">
+        <java classname="src.P1.MagicSquare" failonerror="true" fork="yes">
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </java>
+    </target>
+    <target name="TurtleSoup (2)">
+        <java classname="src.P2.turtle.TurtleSoup" failonerror="true" fork="yes">
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </java>
+    </target>
+    <target name="Main (1)">
+        <java classname="src.P4.twitter.Main" failonerror="true" fork="yes">
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </java>
+    </target>
+    <target name="FriendshipGraph (1)">
+        <java classname="src.P3.FriendshipGraph" failonerror="true" fork="yes">
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </java>
+    </target>
+    <target name="MagicSquare">
+        <java classname="P1.MagicSquare" failonerror="true" fork="yes">
+            <classpath refid="Lab1_1163710110.classpath"/>
+        </java>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

@@ -1,0 +1,45 @@
+Java HotSpot(TM) 64-Bit Server VM (25.162-b12) for linux-amd64 JRE (1.8.0_162-b12), built on Dec 19 2017 21:15:48 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+Memory: 4k page, physical 3922824k(287932k free), swap 4075516k(3222684k free)
+CommandLine flags: -XX:InitialHeapSize=62765184 -XX:MaxHeapSize=1004242944 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+2028.708: [GC (Allocation Failure) [PSYoungGen: 15360K->2448K(17920K)] 15360K->3627K(58880K), 0.0048486 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2034.019: [GC (Allocation Failure) [PSYoungGen: 17808K->2531K(17920K)] 18987K->4540K(58880K), 0.0029268 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2036.308: [GC (Metadata GC Threshold) [PSYoungGen: 17838K->2548K(17920K)] 19847K->9655K(58880K), 0.0031120 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2036.311: [Full GC (Metadata GC Threshold) [PSYoungGen: 2548K->0K(17920K)] [ParOldGen: 7106K->8061K(28672K)] 9655K->8061K(46592K), [Metaspace: 20696K->20690K(1069056K)], 0.0236622 secs] [Times: user=0.05 sys=0.00, real=0.03 secs] 
+2036.542: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 882K->96K(17920K)] 8943K->8157K(46592K), 0.0017612 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2036.544: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 96K->0K(17920K)] [ParOldGen: 8061K->3296K(38400K)] 8157K->3296K(56320K), [Metaspace: 20791K->20791K(1069056K)], 0.0173271 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
+2037.083: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 304K->96K(17920K)] 3600K->3392K(56320K), 0.0017741 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2037.085: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 96K->0K(17920K)] [ParOldGen: 3296K->3290K(55296K)] 3392K->3290K(73216K), [Metaspace: 20795K->20781K(1069056K)], 0.0184683 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+2037.613: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 707K->96K(24064K)] 3997K->3394K(79360K), 0.0015804 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2037.614: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 96K->0K(24064K)] [ParOldGen: 3298K->3299K(81920K)] 3394K->3299K(105984K), [Metaspace: 20787K->20773K(1069056K)], 0.0096310 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2038.126: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 752K->32K(24576K)] 4052K->3331K(106496K), 0.0055127 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2038.132: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 32K->0K(24576K)] [ParOldGen: 3299K->3298K(108032K)] 3331K->3298K(132608K), [Metaspace: 20774K->20760K(1069056K)], 0.0167092 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2038.651: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 120K->32K(26624K)] 3418K->3330K(134656K), 0.0052014 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2038.656: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 32K->0K(26624K)] [ParOldGen: 3298K->3275K(142848K)] 3330K->3275K(169472K), [Metaspace: 20760K->20746K(1069056K)], 0.0195112 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+2039.178: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 492K->32K(26624K)] 3768K->3307K(169472K), 0.0062132 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2039.184: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 32K->0K(26624K)] [ParOldGen: 3275K->3285K(176640K)] 3307K->3285K(203264K), [Metaspace: 20746K->20732K(1069056K)], 0.0210060 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+2148.098: [GC (Allocation Failure) [PSYoungGen: 18944K->1691K(27136K)] 22229K->4984K(203776K), 0.0075497 secs] [Times: user=0.02 sys=0.01, real=0.00 secs] 
+2170.088: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 5977K->827K(28160K)] 9271K->4128K(204800K), 0.0047798 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2170.093: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 827K->0K(28160K)] [ParOldGen: 3301K->2613K(220160K)] 4128K->2613K(248320K), [Metaspace: 20757K->20742K(1069056K)], 0.0334805 secs] [Times: user=0.07 sys=0.00, real=0.04 secs] 
+2217.590: [GC (Allocation Failure) [PSYoungGen: 20992K->1715K(28160K)] 23605K->4329K(248320K), 0.0037172 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2220.231: [GC (Metadata GC Threshold) [PSYoungGen: 21529K->6113K(28672K)] 24142K->9541K(248832K), 0.0035693 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2220.235: [Full GC (Metadata GC Threshold) [PSYoungGen: 6113K->0K(28672K)] [ParOldGen: 3428K->8414K(273408K)] 9541K->8414K(302080K), [Metaspace: 32877K->32877K(1083392K)], 0.0347322 secs] [Times: user=0.06 sys=0.00, real=0.03 secs] 
+2220.428: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 686K->64K(31744K)] 9100K->8478K(305152K), 0.0013661 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2220.429: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 64K->0K(31744K)] [ParOldGen: 8414K->8210K(334848K)] 8478K->8210K(366592K), [Metaspace: 32883K->32883K(1083392K)], 0.0256869 secs] [Times: user=0.08 sys=0.00, real=0.03 secs] 
+2220.976: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 2580K->64K(31744K)] 10790K->8282K(366592K), 0.0050375 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2220.981: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 64K->0K(31744K)] [ParOldGen: 8218K->3646K(394752K)] 8282K->3646K(426496K), [Metaspace: 33098K->33076K(1083392K)], 0.0274580 secs] [Times: user=0.05 sys=0.00, real=0.03 secs] 
+2221.509: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 390K->32K(32768K)] 4036K->3678K(427520K), 0.0146182 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2221.524: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 32K->0K(32768K)] [ParOldGen: 3646K->3534K(463872K)] 3678K->3534K(496640K), [Metaspace: 33076K->33068K(1083392K)], 0.0147490 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2222.042: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 183K->64K(32768K)] 3718K->3598K(496640K), 0.0036074 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2222.046: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 64K->0K(32768K)] [ParOldGen: 3534K->3525K(541184K)] 3598K->3525K(573952K), [Metaspace: 33068K->33048K(1083392K)], 0.0108575 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2222.559: [GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 329K->96K(34304K)] 3855K->3621K(575488K), 0.0042597 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2222.563: [Full GC (JvmtiEnv ForceGarbageCollection) [PSYoungGen: 96K->0K(34304K)] [ParOldGen: 3525K->3531K(635392K)] 3621K->3531K(669696K), [Metaspace: 33048K->33027K(1083392K)], 0.0398984 secs] [Times: user=0.10 sys=0.00, real=0.04 secs] 
+2387.423: [GC (Allocation Failure) [PSYoungGen: 27648K->2427K(34304K)] 31179K->5966K(669696K), 0.1963410 secs] [Times: user=0.04 sys=0.00, real=0.20 secs] 
+Heap
+ PSYoungGen      total 34304K, used 4983K [0x00000000ec100000, 0x00000000ee980000, 0x0000000100000000)
+  eden space 27648K, 9% used [0x00000000ec100000,0x00000000ec37f2e0,0x00000000edc00000)
+  from space 6656K, 36% used [0x00000000edc00000,0x00000000ede5ec10,0x00000000ee280000)
+  to   space 6144K, 0% used [0x00000000ee380000,0x00000000ee380000,0x00000000ee980000)
+ ParOldGen       total 635392K, used 3539K [0x00000000c4200000, 0x00000000eae80000, 0x00000000ec100000)
+  object space 635392K, 0% used [0x00000000c4200000,0x00000000c4574e40,0x00000000eae80000)
+ Metaspace       used 33077K, capacity 35802K, committed 36352K, reserved 1083392K
+  class space    used 2334K, capacity 2464K, committed 2560K, reserved 1048576K

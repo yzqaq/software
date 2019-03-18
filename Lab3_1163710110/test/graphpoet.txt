@@ -1,0 +1,13 @@
+GraphType = “GraphPoet”
+GraphName = “LabNetwork”
+
+VertexType = “Word”
+Vertex = <“Word1”, “Word”>
+Vertex = <“Word2”, “Word”>
+Vertex = <“Word3”, “Word”>
+
+EdgeType = “WordNeighborhood”
+Edge = <“R1S1”, “WordNeighborhood”, “1”, “Word1”,“Word1”, “Yes”>
+Edge = <“C2S1”, “WordNeighborhood”, “1”, “Word2”,“Word1”, “Yes”>
+Edge = <“C1S3”, “WordNeighborhood”, “1”, “Word1”,“Word3”, “Yes”>
+
